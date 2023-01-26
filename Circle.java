@@ -1,13 +1,13 @@
 class Circle
 {
-private float r, area;
+private float radius, area;
 public void accept(float x)
 {
-r=x;
+radius=x;
 }
 public void calculate()
 {
-area=3.14f*r*r;
+area=3.14f*radius*radius;
 }
 public void display()
 {
