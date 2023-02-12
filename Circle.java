@@ -1,4 +1,3 @@
-import java.util.*;
 class Circle
 {
 private float radius, area;
@@ -16,12 +15,9 @@ System.out.println(“Area=“+area);
 }
 public static void main(String[] args)
 {
-float x;
-Scanner sc=new Scanner(System.in);
-System.out.println("Enter radius:");
-x=sc.nextInt();
+float radius;
 Circle c=new Circle();
-c.accept(x);
+c.accept(4);
 c.calculate();
 c.display();
 }
